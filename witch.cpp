@@ -17,7 +17,7 @@ void witch::attack()
     cout << health<<endl;
 }
 
-void witch::power(int mana, int magic)
+void witch::power()
 {
     string n;
     cout << "Would you like to use magic?"<<endl;

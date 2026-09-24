@@ -7,7 +7,7 @@ int health, magic, mana;
 public:
 witch();
 void attack();
-void power(int mana, int magic);
+void power();
 
 };
 
