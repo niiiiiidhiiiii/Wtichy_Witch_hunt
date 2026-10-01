@@ -1,5 +1,7 @@
 #include "witch.h"
 #include "story.h"
+#include "knight.h"
+#include "System.h"
 #include <iostream>
 #include <limits>
 #include "string"
@@ -16,16 +18,8 @@ int main()
     intro s;
     s.start();
 
-    string start;
-    cout << "Write start to continue the game: " << endl;
-    cin >> start;
-    if (start == "start" || start == "START")
-    {
-        witch Witch;
-
-        Witch.attack();
-        Witch.power();
-    }
+    chocies_k k;
+    k.blessing();
 
     return 0;
 }
