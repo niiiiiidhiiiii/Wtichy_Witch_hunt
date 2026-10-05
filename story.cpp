@@ -17,7 +17,7 @@ void intro::start()
          << "Extra Character: 'EXTRA EXTRA READ ALL ABOUT IT !!'\n"
          << "A kid with a cheerful voice ran around, shouting and throwing the newspaper at commoners and nobles. \nToday is the day when both of them come together in the capital's centre, with no malice or status standing in between.\n";
 
-        tocontinue();
+    tocontinue();
 
     cout << "Today is the day. \n "
          << "When the best of the best warriors. \n "
@@ -25,9 +25,9 @@ void intro::start()
 
     tocontinue();
     cout << "\033[33m" << "Extra Char : 'I heard the crown prince will participate in this!' Noble ladies squealed, swooning." << "\033[0m \n"
-    << "ladies squealed, swooning. \n"
-    << "Knights sharpen the weapons after getting them blessed by the head priest.\n"
-    << "And capital burst of colour \n";
+         << "ladies squealed, swooning. \n"
+         << "Knights sharpen the weapons after getting them blessed by the head priest.\n"
+         << "And capital burst of colour \n";
 
     tocontinue();
 
@@ -58,3 +58,25 @@ void intro::start()
 };
 
 // choice for the belssing.
+
+void intro::beingbless()
+{
+    cout << "I walk towards the emperor and bowed in curtesy, going down on one knee. \nHe raised a sword which his servant held for him until now. Emperor put the sword on my shoulder, and the crowd collectively goes silent. \n I wanted to look up, but then decided against it. ";
+    cout << "\033[38;5;93m" << "His Majesty: 'May the goddess Naviera lead you on right path. you may stand now'" << "\033[0m" << endl;
+    tocontinue();
+    cout << "I slowly raised to my full height. The moment my gaze fell on which sword he was holding, I understood the silent murmer of the crowd\n";
+    cout << "\033[1m" << "This holy sword was the one our first emperor used to slay the witch.\n"
+         << "\033[1m" << "I am handing this to you with hopes" << "\033[0m";
+    tocontinue();
+
+    cout << "In other words, It's warning to not disappoint him";
+}
+
+void intro::walksaway()
+{
+    cout << "I took first step back, then another and before my resolve could flatter, I was walking away.\n"
+         << "I heard the murmer of the crowd, shocking gasp of nobles standing closeby the path i took and \n"
+         << "\033[1m" << "And the emperor furious voice calling out my name twice." << "\033[0m";
+    tocontinue();
+    cout << "I might have made stupid choice. But after long suffering under his hand for some questions...\n I rather just give up and die as traitor.";
+}

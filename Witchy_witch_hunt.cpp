@@ -6,13 +6,7 @@
 #include <limits>
 #include "string"
 using namespace std;
-//~~~~~~~~~function to cont~~~~~~~~~~~~~//
-// void tocontinue()
-// {
-//     cin.ignore(numeric_limits<streamsize>::max(), '\n');
-//     cin.get();
-// }
-//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+
 int main()
 {
     intro s;
@@ -20,6 +14,7 @@ int main()
 
     chocies_k k;
     k.blessing();
+    
 
     return 0;
 }

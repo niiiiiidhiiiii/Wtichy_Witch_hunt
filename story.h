@@ -5,6 +5,8 @@ void tocontinue();
 class intro{
     public:
 void start();
+void beingbless();
+void walksaway();
 
 };
 
