@@ -1,0 +1,14 @@
+# Obsidian
+.obsidian/
+
+# Compiled executable
+*.exe
+
+# VS Code settings
+.vscode/
+
+# Temporary/object files
+*.o
+
+# Story notes
+*.md

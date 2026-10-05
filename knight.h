@@ -9,4 +9,5 @@ private:
 public:
     Knight();
     void displayk();
-}
+};
+#endif

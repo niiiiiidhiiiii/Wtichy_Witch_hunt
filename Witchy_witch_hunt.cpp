@@ -7,11 +7,11 @@
 #include "string"
 using namespace std;
 //~~~~~~~~~function to cont~~~~~~~~~~~~~//
-void tocontinue()
-{
-    cin.ignore(numeric_limits<streamsize>::max(), '\n');
-    cin.get();
-}
+// void tocontinue()
+// {
+//     cin.ignore(numeric_limits<streamsize>::max(), '\n');
+//     cin.get();
+// }
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
 int main()
 {

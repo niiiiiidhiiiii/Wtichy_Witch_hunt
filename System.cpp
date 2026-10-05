@@ -2,65 +2,65 @@
 #include <iostream>
 using namespace std;
 
-void Howdesee::Howdesee()
+ Howdesee::Howdesee()
 {
     this->p = 10;
     this->g = 0;
     this->t = 10;
-}
+};
 
-void Howdesee::popularity()
+void Howdesee::popularity(int user)
 {
     if (user == 1)
     {
         p = p + 2;
         cout << "Popularity point gained: +2";
     }
-    ifelse(user == 2)
+    else if(user == 2)
     {
         cout << "Lost popularity points!";
-        p = p - 2
+        p = p - 2;
     }
-}
+};
 
-void Howdesee::trust()
+void Howdesee::trust(int user)
 {
     if (user == 1)
     {
         t = t + 2;
         cout << "Popularity point gained: +2";
     }
-    ifelse(user == 2)
+    else if(user == 2)
     {
         cout << "Lost popularity points!";
-        t = t - 2
+        t = t - 2;
     }
     else
     {
         cout << "Wrong input!";
-    }
-}
-void Howdesee::trustgained()
+    };
+};
+void Howdesee::trustgained(int user)
 {
     if (user == 1)
     {
         g = g + 2;
         cout << "Popularity point gained: +2";
     }
-    ifelse(user == 2)
+    else if(user == 2)
     {
         cout << "Lost popularity points!";
-        g = g - 2
+        g = g - 2;
     }
     else
     {
         cout << "Wrong input!";
     }
-}
-void chocies_k::chocies_k()
+};
+chocies_k::chocies_k()
 {
     int user;
-}
+};
 
 void chocies_k::blessing()
 {
@@ -68,4 +68,4 @@ void chocies_k::blessing()
          << "1 for yes \n"
          << "2 for no \n";
     cin >> user;
-}
+};

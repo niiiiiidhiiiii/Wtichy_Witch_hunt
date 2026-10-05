@@ -4,20 +4,22 @@
 class Howdesee{
     int p,t,g;
     public:
-    void popularity();
-    void trust();
-    void trustgained();
+    void popularity(int user);
+    void trust(int user);
+    void trustgained(int user);
     Howdesee();
     
 
 
 
 
-}
+};
 
 class chocies_k{
     int user;
     public:
     void blessing();
     chocies_k();
-}
+};
+
+#endif
