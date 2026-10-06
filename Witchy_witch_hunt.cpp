@@ -15,6 +15,14 @@ int main()
     chocies_k k;
     k.blessing();
     
+cout<<endl;
+    cout<<"Enter the forest? \n"
+    <<"1-> Yes. \n"
+    <<"2-> as if I have a choice..\n";
+
+    ACT1 a;
+    a.forest();
+    
 
     return 0;
 }

@@ -10,5 +10,8 @@ void walksaway();
 
 };
 
-
+class ACT1{
+    public:
+    void forest();
+};
 #endif

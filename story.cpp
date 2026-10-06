@@ -80,3 +80,27 @@ void intro::walksaway()
     tocontinue();
     cout << "I might have made stupid choice. But after long suffering under his hand for some questions...\n I rather just give up and die as traitor.";
 }
+
+void ACT1::forest(){
+     tocontinue();
+     cout << "\033[92m";
+
+cout << R"(
+
+                      A C T   I  
+
+          _______________________________
+
+                 INTO THE FOREST
+                       OF
+                   UNCERTAINTY
+          _______________________________
+
+                    
+
+)";
+
+cout << "\033[0m";
+
+
+}
